@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = +prompt("Nhập tham số 1");
+    let b = +prompt("Nhập tham số 2");
+    if (check(a, b)) {
+        alert("Số "+ a + " lớn hơn số "+b);
+    }
+    else alert(a+b);
+    function check(a,b) {
+        if (a>b) {
+            return check = true;
+        }
+        else check = false;
+    }
+</script>
+</html>

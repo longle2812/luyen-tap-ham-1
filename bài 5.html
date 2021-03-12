@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = ['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus'];
+    let b = ['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo'];
+    let input = prompt("Nhập tên ngôi sao");
+    check(input);
+    function check(input) {
+        let index = a.indexOf(input);
+        if (index == -1) {
+            alert("không tìm thấy");
+        }
+        else alert("Sao "+input+" nằm trong chòm sao "+b[index]);
+
+    }
+</script>
+</html>
